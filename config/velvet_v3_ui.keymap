@@ -52,10 +52,10 @@
 
         nav {
             bindings = <
-&trans  &kp N1  &kp N2          &kp N3          &kp N4           &kp N5                     &kp N6    &kp N7        &kp N8         &kp N9       &kp N0         &trans
-&trans  &trans  &kp C_VOL_DN    &kp UP          &kp C_VOL_UP     &kp RET                    &kp LEFT  &kp DOWN      &kp UP         &kp RIGHT    &trans         &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                     &kp CLCK  &kp LC(LEFT)  &kp PAGE_DOWN  &kp PAGE_UP  &kp LC(RIGHT)  &trans
-                &trans          &trans          &trans           &trans   &trans    &trans  &mo 3     &trans        &trans         &trans
+&trans  &kp N1  &kp N2          &kp N3          &kp N4           &kp N5                    &kp N6    &kp N7        &kp N8         &kp N9       &kp N0         &trans
+&trans  &trans  &kp C_VOL_DN    &kp UP          &kp C_VOL_UP     &kp RET                   &kp LEFT  &kp DOWN      &kp UP         &kp RIGHT    &trans         &trans
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                    &kp CLCK  &kp LC(LEFT)  &kp PAGE_DOWN  &kp PAGE_UP  &kp LC(RIGHT)  &trans
+                &trans          &trans          &trans           &trans   &trans    &mo 3  &mo 3     &trans        &trans         &trans
             >;
 
             display-name = "Nav";
@@ -63,10 +63,10 @@
 
         sym {
             bindings = <
-&trans  &kp EXCL  &kp AT    &kp HASH   &kp DLLR  &kp PRCNT                    &kp CARET  &kp AMPERSAND     &kp ASTRK  &kp LPAR           &kp RPAR  &trans
-&trans  &trans    &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                     &kp PRCNT  &kp LBRC          &kp EQUAL  &kp RBRC           &kp EXCL  &kp QUESTION
-&trans  &trans    &kp LT    &kp UNDER  &kp GT    &kp DLLR                     &kp AT     &kp LEFT_BRACKET  &kp PLUS   &kp RIGHT_BRACKET  &trans    &trans
-                  &trans    &trans     &trans    &mo 3      &trans    &trans  &trans     &trans            &trans     &trans
+&trans  &kp EXCL  &kp AT    &kp HASH   &kp DLLR  &kp PRCNT                   &kp CARET  &kp AMPERSAND     &kp ASTRK  &kp LPAR           &kp RPAR  &trans
+&trans  &trans    &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                    &kp PRCNT  &kp LBRC          &kp EQUAL  &kp RBRC           &kp EXCL  &kp QUESTION
+&trans  &trans    &kp LT    &kp UNDER  &kp GT    &kp DLLR                    &kp AT     &kp LEFT_BRACKET  &kp PLUS   &kp RIGHT_BRACKET  &trans    &trans
+                  &trans    &trans     &trans    &mo 3      &mo 3    &trans  &trans     &trans            &trans     &trans
             >;
 
             display-name = "Symbols";
